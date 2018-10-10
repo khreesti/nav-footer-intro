@@ -1,0 +1,96 @@
+body {
+    color: #FB807E;
+    margin: 0;
+    font-family: sans-serif;
+}
+
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+header {
+    background-color: #4C83FF;
+    height: 150px;
+    line-height: 150px;
+}
+
+header a {
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+/* id selector */
+#header-title {
+    display: block;
+    float: left;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#header-nav {
+    display: block;
+    float: right;
+    margin-top: 0;
+}
+
+#header-nav li {
+    display: inline;
+    Padding-left: 20px;
+}
+
+#header a:hover {
+    color: #222;
+    cursor: pointer;
+}
+
+/* footer */
+
+footer {
+    background: black;
+    position: absolute;
+    width: 100%;
+    font: bold 16px sans-serfi;
+    /* font-weight: ;
+    font-size: ;
+    font-family: ; */
+    padding: 55px 50px;
+}
+
+footer .footer-left {
+    width: 40%;
+}
+
+footer .footer-left, footer .footer-right {
+    display: inline-block;
+    vertical-align: center;
+}
+
+footer .footer-links {
+    color: #fff;
+    margin: 20px 0 12px;
+    padding: 0;
+}
+
+footer .footer-links a {
+    text-decoration: none;
+    color: inherit;
+}
+
+footer .footer-name {
+    font-size: 14px;
+    font-weight: normal;
+    margin: 0;
+}
+
+footer .footer-right {
+    width: 35%;
+}
+
+footer .footer-right p {
+    display: inline-block;
+    color: white;
+    vertical-align: middle;
+    margin: 0;
+}
